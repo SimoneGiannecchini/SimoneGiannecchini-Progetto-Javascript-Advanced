@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Ricerca Libri Open Library</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <h2>Ricerca Libri per Categoria</h2>
+         <input type="text" id="categoriaInput" placeholder="Es: fantasy">
+        <button id="cercaBtn">Cerca</button>
+        <ul id="risultati"></ul>
+        <div id="descrizione"></div>
+    <hr>
+        <button id="mostraSalvatiBtn">📚 Visualizza libri salvati</button>
+        <ul id="listaSalvati"></ul>
+        </div>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
+
+
+
+
+

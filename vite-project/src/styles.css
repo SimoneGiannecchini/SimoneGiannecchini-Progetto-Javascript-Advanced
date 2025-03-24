@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+  background: url("/sfondo.webp") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.container input[type=text] {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f7f2f2;
+  color: #000;
+  border: 1px solid #555;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  margin-bottom: 15px;
+}
+.container input[type=text]:focus {
+  border-color: #4CAF50;
+}
+.container button {
+  padding: 10px 30px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container button:hover {
+  background-color: #3d8b40;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin: 10px auto;
+  width: 80%;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+ul li:hover {
+  transform: translateY(-3px);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#descrizione {
+  background-color: rgba(0, 0, 0, 0.85);
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 90%;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: none;
+}/*# sourceMappingURL=styles.css.map */
