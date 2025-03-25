@@ -1,4 +1,7 @@
+import './styles.scss'; 
 
+import { capitalize, shuffle } from 'lodash-es';
+import axios from 'axios';
 const firebaseConfig = {
   apiKey: "TAIzaSyBtdZN0A-BkjQ7ixEVfSRaqqUqa6I8mTDs",
   authDomain: "trovalibri-e26dc.firebaseapp.com",
@@ -10,11 +13,6 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
-
-
-import { capitalize, shuffle } from 'lodash-es';
-import axios from 'axios';
-
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('cercaBtn').addEventListener('click', cercaLibri);
   document.getElementById('mostraSalvatiBtn').addEventListener('click', caricaLibriSalvati);
