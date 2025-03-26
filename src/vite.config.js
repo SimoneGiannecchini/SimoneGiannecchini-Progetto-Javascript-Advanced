@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/Progetto-Javascript-Advanced/', 
-})
+  base: '/SimoneGiannecchini-Progetto-Javascript-Advanced/', 
+});
