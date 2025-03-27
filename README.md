@@ -1,60 +1,88 @@
-# 📚 Ricerca Libri con Open Library API
+# 📚 Book Finder con Open Library API
 
-Questa applicazione web permette di cercare libri per categoria utilizzando le API di Open Library. Gli utenti possono visualizzare il titolo, gli autori e i dettagli dei libri e salvare i preferiti su Firebase.
-prova subito https://simonegiannecchini.github.io/Progetto-Javascript-Advanced/
-## 🚀 Funzionalità
+Un'applicazione web semplice e intuitiva per cercare libri per categoria sfruttando le API di **Open Library**. Inserendo una categoria (es. `fantasy`), l'utente può visualizzare un elenco di libri con titolo e autori. Con un click, può ottenere anche la descrizione completa del libro selezionato.
 
-- 🔍 **Ricerca per categoria** tramite Open Library API
-- 📖 **Visualizzazione elenco libri** con titolo e autori
-- 📚 **Dettagli libro** con descrizione completa
-- ⭐ **Salvataggio preferiti** su Firebase 
-- 🎨 **UI semplice e intuitiva**
+👉 **Provala subito:** [LINK ALLA DEMO SU GITHUB PAGES]( https://simonegiannecchini.github.io/SimoneGiannecchini-Progetto-Javascript-Advanced/)
 
-## 🏗️ Tecnologie Utilizzate
+---
 
-- **Frontend**: HTML, CSS, JavaScript 
-- **Backend/API**: Open Library API
-- **Database**: Firebase https://firebase.google.com/
+## 🔍 Funzionalità principali
 
-## 🔗 API Utilizzate
+- Ricerca di libri tramite categoria (`fantasy`, `horror`, `romance`, ecc.)
+- Visualizzazione del **titolo** e degli **autori**
+- Visualizzazione della **descrizione del libro** al click
+- Interfaccia ispirata allo stile Google
+- Chiamate API gestite tramite **Axios**
+- Progetto strutturato con **Vite**
+- Utilizzo opzionale di **Lodash** per la gestione sicura dei dati
 
-- **Ricerca libri**: ![screenshot](https://openlibrary.org/subjects/fantasy.json)
-- **Dettagli libro**: [https://openlibrary.org/works/{book_key}.json](https://openlibrary.org/works/OL8193508W.json)
+---
 
-## 🛠️ Installazione e Utilizzo
+## 🛠️ Tecnologie utilizzate
 
-1. **Clona il repository**
-   ```sh
-   git clone https://github.com/tuo-username/ricerca-libri.git
-   cd ricerca-libri
-   ```
-2. **Apri il file `index.html` nel browser**
-3. **Configura Firebase** inserendo le credenziali nel file JavaScript
-4. **Avvia la ricerca** e salva i tuoi preferiti!
+- **Vite** (per sviluppo veloce e build ottimizzata)
+- **HTML5 / CSS3**
+- **JavaScript**
+- [Axios](https://axios-http.com/)
+- [Lodash](https://lodash.com/)
+- [Open Library API](https://openlibrary.org/developers/api)
 
-## 📸 Demo
-
-1. Inserisci una categoria nella barra di ricerca (es. "fantasy").
-2. Visualizza i libri con titolo e autori.
-3. Clicca su un libro per vedere la descrizione.
-4. Salva il libro nei preferiti con Firebase.
+---
 
 ## 🖼️ Screenshot
 
-`![Screenshot dell'app](assets/img/trova_libro.jpeg)
-![Screenshot dell'app](assets/img/salvataggio_libro.JPG)
+![Ricerca libri](public/img/trova_libro.jpeg)
+*Ricerca per categoria e risultati ottenuti*
 
-
-
-
-## 🏆 Contributi
-
-Sentiti libero di contribuire aprendo **issue** o **pull request**!
-
-## 📜 Licenza
-
-Questo progetto è rilasciato sotto licenza *[*MIT](https://opensource.org/license/mit)**.
+![Salvataggio  libro](public/img/salvataggio_libro.JPG)
+*Visualizzazione descrizione di un libro selezionato*
 
 ---
-✨ Grazie per il tuo interesse! 🚀
+
+## 📥 Come clonare ed eseguire il progetto sul tuo PC
+
+Per lavorare in locale con questo progetto, segui questi passaggi:
+
+### ✅ Requisiti
+
+Assicurati di avere installati sul tuo computer:
+
+- [**Git**](https://git-scm.com/downloads) – per clonare il progetto
+- [**Node.js**](https://nodejs.org/) (versione consigliata: LTS) – per eseguire il progetto con Vite
+- Un terminale (Prompt dei comandi, PowerShell, Terminale macOS/Linux, o terminale integrato in VS Code)
+
+---
+
+### 🔄 Procedura passo-passo
+
+1. **Apri il Prompt dei comandi o il Terminale**
+
+   Su Windows puoi cercare "Prompt dei comandi" o "PowerShell", oppure apri VS Code e usa il terminale integrato (`Ctrl + ò`).
+
+2. **Clona il repository dal tuo account GitHub**
+   ```bash
+   git clone https://github.com/SimoneGiannecchini/SimoneGiannecchini-Progetto-Javascript-Advanced.git
+
+**Spostati nella cartella del progetto**
+cd SimoneGiannecchini-Progetto-Javascript-Advanced
+
+**Installa tutte le dipendenze del progetto**
+npm install
+**Avvia il server di sviluppo (con Vite)**
+npm run dev
+**Apri il progetto nel browser**
+VITE vX.X.X  ready in XXX ms
+
+➜  Local:   http://localhost:5173/
+
+## 📝 Licenza
+
+Questo progetto è distribuito sotto licenza **MIT**.
+
+
+📄 [Visualizza il testo completo della licenza MIT](https://opensource.org/licenses/MIT)
+
+
+
+
 
