@@ -17,6 +17,34 @@ Un'applicazione web semplice e intuitiva per cercare libri per categoria sfrutta
 - Utilizzo opzionale di **Lodash** per la gestione sicura dei dati
 
 ---
+## 💾 Funzionalità Extra – Gestione dei Libri Preferiti
+
+### ✅ Visualizzazione dei preferiti salvati
+
+- 📚 Elenco dei libri **salvati dall’utente**
+- 🖼️ Ogni libro mostra **copertina + titolo + autori**
+- 🔁 Dati gestiti tramite **Firebase Realtime Database**
+
+---
+
+### 🖼️ Gestione copertine
+
+- ✅ Se disponibile → **copertina originale da Open Library**
+- 🧱 Se non disponibile → **copertina standard di fallback**
+
+---
+
+### ❌ Rimozione preferiti
+
+- Ogni libro ha un pulsante **"Rimuovi"**
+- **Clic** → elimina il libro dai preferiti e aggiorna la lista in tempo reale
+
+---
+
+👉 Una sezione pensata per **organizzare facilmente i propri libri salvati**  
+e gestirli in modo **dinamico e personalizzato**
+
+---
 
 ## 🛠️ Tecnologie utilizzate
 
